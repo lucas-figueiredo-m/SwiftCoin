@@ -80,6 +80,11 @@
 		615AD2FA2BE42AE60048B85B /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		615AD2FC2BE42DEE0048B85B /* CoinDetailSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailSectionModel.swift; sourceTree = "<group>"; };
 		615AD2FE2BE4343C0048B85B /* CoinDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewModel.swift; sourceTree = "<group>"; };
+		6168C5542BEEFCFD0015CAC6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6168C5552BEEFD070015CAC6 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		6168C5572BEEFDC50015CAC6 /* screenshot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-1.png"; sourceTree = "<group>"; };
+		6168C5582BEEFDD80015CAC6 /* screenshot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-2.png"; sourceTree = "<group>"; };
+		6168C5592BEEFDED0015CAC6 /* screenshot-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-3.png"; sourceTree = "<group>"; };
 		61F614712BE51C840026F512 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
 		61F614732BE51D6E0026F512 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		61F614752BE51EC10026F512 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
@@ -116,6 +121,9 @@
 		615AD29A2BE2FAD50048B85B = {
 			isa = PBXGroup;
 			children = (
+				6168C5562BEEFD9B0015CAC6 /* screenshots */,
+				6168C5552BEEFD070015CAC6 /* LICENSE.md */,
+				6168C5542BEEFCFD0015CAC6 /* README.md */,
 				615AD2A52BE2FAD50048B85B /* SwiftCoin */,
 				615AD2B62BE2FAD70048B85B /* SwiftCoinTests */,
 				615AD2C02BE2FAD80048B85B /* SwiftCoinUITests */,
@@ -275,6 +283,16 @@
 				61F614752BE51EC10026F512 /* ChartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6168C5562BEEFD9B0015CAC6 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6168C5592BEEFDED0015CAC6 /* screenshot-3.png */,
+				6168C5582BEEFDD80015CAC6 /* screenshot-2.png */,
+				6168C5572BEEFDC50015CAC6 /* screenshot-1.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
